@@ -1,16 +1,25 @@
 /**
  * fields username, password, and email
  */
-var mongoose = require('mongoose');
+//required modules
+var mongoose= require ("mongoose");
 
-
-var userSchema = new mongoose.Schema({
+//create user view model schema
+var Schema = mongoose.Schema;
+var userSchema = new Schema({
     username: String,
     password: String,
     email: String
 });
 
-module.exports = mongoose.model('User', userSchema);
+//export view model
+var User = module.exports = mongoose.model ("User", userSchema);
 
-
- /**database queries */
+//add a new user to database
+module.exports.add = (user, callback)=> {
+    user.save(callback);
+};
+module.exports.getById = (id, callback) => {
+    var query = {_id: id};
+    user.findById(query, callback);
+};
