@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-var config = require("../config");
+var config = require('../config');
 
 /**
  * Module dependencies.
  */
 
 var app = require('../app');
-var debug = require('debug')('api-gateway:server');
+var debug = require('debug')('api-gateway-wk6:server');
 var http = require('http');
 
 /**
