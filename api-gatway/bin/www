@@ -1,3 +1,13 @@
+/*
+;============================================
+; Title:  www
+; Author: Laurie Mailloux
+; Date:   June 6 2020
+; Description: part of api-gateway
+;===========================================
+/ *
+/**
+
 #!/usr/bin/env node
 var config = require('../config');
 

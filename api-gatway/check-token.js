@@ -1,3 +1,11 @@
+/*
+============================================
+; Title:  app.js
+; Author: Laurie Mailloux
+; Date:   June 6 2020
+; Description: new file in api-gateway
+;===========================================
+*/
 var jwt = require('jsonwebtoken');
 var config = require('./config');
 
