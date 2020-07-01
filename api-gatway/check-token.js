@@ -1,10 +1,11 @@
 /*
-============================================
-; Title:  app.js
-; Author: Laurie Mailloux
-; Date:   June 6 2020
+===========================================
+; Title:  Api-Gateway
+; Author: Professor Krasso
+: Modified by: Laurie Mailloux
+; Date:   June 6 2020  
 ; Description: new file in api-gateway
-;===========================================
+;==========================================
 */
 var jwt = require('jsonwebtoken');
 var config = require('./config');
